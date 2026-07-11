@@ -2,7 +2,7 @@ import turtle
 
 t = turtle.Turtle()
 t.pensize(7)
-t.shape("turtle")
+t.shape("dog")
 
 def go(x, y):
     t.penup()
@@ -18,7 +18,7 @@ def linea(direc, longitud):
     t.forward(longitud)
     
 def petalo1(dif):
-    t.fillcolor("Gold")
+    t.fillcolor("CornflowerBlue")
     t.begin_fill()
     arco(19.4+dif, 16.55, 36.24)
     arco(58.23+dif, 39.13, 19.06)
@@ -36,7 +36,7 @@ def petalo1(dif):
     t.end_fill()
 
 def petalo2(dif):
-    t.fillcolor("Orange")
+    t.fillcolor("RoyalBlue")
     t.begin_fill()
     arco(33.87+dif, 87.78, 26.03)
     arco(61.06+dif, 118.55, 26.52)
@@ -51,7 +51,7 @@ def petalo2(dif):
     t.end_fill()
     
 def petalo3(dif):
-    t.fillcolor("Orange")
+    t.fillcolor("MediumBlue")
     t.begin_fill()
     arco(61.79+dif, -118.29, 7.49)
     arco(104.98+dif, 52.05, 33.98)
@@ -60,7 +60,7 @@ def petalo3(dif):
     t.end_fill()
     
 def petalo4(dif):
-    t.fillcolor("Gold")
+    t.fillcolor("LightSkyBlue")
     t.begin_fill()
     arco(54.3+dif, -118.29, 7.49)
     arco(46.81+dif, -37.24, 24.37)
